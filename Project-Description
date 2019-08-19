@@ -1,0 +1,25 @@
+Project Title: PAF (Patient Assessment Form)				                         [April 2014 to Present]
+Client: Optum Global Soluctions
+Designation: 
+Skills Used: MS SQL Server 2012/2016, C#.net, ASP.Net, MVC5, WebService
+
+Role & Responsibilities:
+●	Understand and gather the client requirement, design the application architecture & data model, and develop the various modules.
+●	My work as a Lead developer to gather the requirement and assign the work to team member to develop the products which can automate the existing applications or tasks performed by the client, in order to save the manual efforts and resources.
+●	Data cleaning, Regression, and predictive model development 
+●	Scraping and automation of these applications involves .NET technologies like WCF and web services.
+●	Following are few of the assignments I have worked on for this client:
+
+Project Description:
+o	Patient Assessment Form (PAF) Program line of business offers a custom designed and maintained using MS SQL Server 2012, Angular 2, .Net 4.5, ASP.NET, C# .NET/Automation driven technology that service providers who are reimbursed for their participation in the PAF Program.
+o	PAF is a wide project with 14 sub modules, PAF use data from different sources to get data and prepare for provider reimbursement.
+o	Data validation and duplicate identify the duplicate chart ids/transaction id which is already processed.
+o	Provider Payment Logic: to validate provider or match the provider between payfile to Provider Payment Table to embrace payment; All not match records will be show in Exclusion report with NPR (Not Paid Reason). 
+o	EPS/Duncan Payment: Logic to determine the provider is enrolled for direct deposit/electronic payment or not; system generates the separate for check print if TIN is not enrolled for direct deposit.
+o	AP to Excel: AP to excel collect data from EPS and based on business logic data gets in single Excel report. Automation is also designed to get data compiled and downloaded automatically based on schedule.
+o	Duncan Check Void: Duncan Check is a payment type in PAF, this module is design to get details of previously issued checks and void and reissue details. Check details are available in check active directory, shared drive and database. Automation is used to fetch details from all sources and show if that check was issued and what reason lead that to void. Excel result is produced to show the outcome.
+o	Offset Logic: Offset payment recovery automation was done to check and list providers those are overpaid and amount needs to recover. Excel based report was given after running the business logic.
+o	PCP – Payment Confirmation Pending: PCP automation facilitates Ops to identify which payment cycle is not approved and list of Chart ID those are process in a particular cycle.
+o	1099 A & B TAX Module: This automation collect from data from different web and windows application for quarter and commutative yearly payments to submit to Optum Finance for US Corporate TAX. Role of automation is gather data and checks based on business logic for any possible error in status with Ops and Payment teams and generate a txt file for submission. This is a quarterly scheduled automated task.
+o	E2E – End 2 End: End2End program is begin design to provide a single web based solution that will help Operations to monitor, pull reports, process payments and payment status of providers. Automation is ongoing on this project.
+
