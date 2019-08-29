@@ -1,0 +1,41 @@
+  select department , max(salary) 
+from table
+group by department 
+-----------------------------
+emp:
+name  gender
+raman  male
+pooja  female
+raman male 
+
+select name,gender, rank(name,gender) from emp
+
+raman  male     1
+pooja  female   1
+raman male      2
+
+===================
+select name as emp_name , gender from emp
+
+null  : default value
+0     : numeric data 
+''    : alpha numeric data 
+
+--------------
+left()
+right()
+replace()
+len()
+upper()
+lower()
+ltrim()
+rtim()
+
+
+---
+select left(name,5) from table
+--
+select case when 'null' = 'null' then true else false end 
+		 x00112 = x00113
+
+
